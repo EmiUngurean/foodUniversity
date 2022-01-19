@@ -1,0 +1,113 @@
+body,
+ul,
+li,
+h1,
+button,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.UserAuthentification {
+    text-align: right;
+}
+
+.buttonsAuthentification {
+    background-color: #1a2e6b;
+    color: white;
+    border: 2px solid #1a2e6b;
+    font-size: 20px;
+    border-radius: 0px;
+    float: inline-start;
+}
+
+.buttonsAuthentification:hover {
+    background-color: #1a2e6b;
+    border: 2px solid #1a2e6b;
+}
+
+nav {
+    background-color: #1a2e6b;
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 20%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.images {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img {
+    max-width: 100%;
+}
+
+
+/* .button:hover {
+    background-color: #1a2e6b;
+} */
+
+select {
+    background-color: #1a2e6b;
+    border: #1a2e6b;
+    color: white;
+    font-size: 20px;
+    padding: 14px 40px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+footer {
+    background-color: #1a2e6b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a[href="https://usv.ro/"] {
+    color: white;
+    text-decoration: none;
+}
+
+.copyrightUsv {
+    left: 100px;
+    position: inherit;
+}
