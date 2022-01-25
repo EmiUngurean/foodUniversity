@@ -1,1 +1,1 @@
-# fooduniversity.github.io
+# fooduniversity
